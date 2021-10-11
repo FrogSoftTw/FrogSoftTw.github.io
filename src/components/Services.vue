@@ -60,20 +60,29 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script>
   // Import Swiper Vue.js components
   import { Swiper, SwiperSlide } from 'swiper/vue';
 
   // Import Swiper styles
   import 'swiper/css';
-
-  import "swiper/css/pagination"
+  import 'swiper/css/pagination';
 
   // import Swiper core and required modules
   import SwiperCore, { Autoplay, Pagination } from 'swiper';
 
   // install Swiper modules
   SwiperCore.use([Autoplay, Pagination]);
+
+  export default {
+    components: {
+      Swiper,
+      SwiperSlide,
+    },
+    data() {
+      return {}
+    },
+  }
 </script>
 
 <style>
