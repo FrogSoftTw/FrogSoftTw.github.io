@@ -2,35 +2,35 @@
   <div class="service-flow-bg">
     <div class="container">
       <div class="w-full h-screen flex justify-center items-center">
-        <div class="grid grid-cols-12 xl:gap-24 lg:gap-16 md:gap-12 sm:gap-8 gap-4 flex relative">
-          <div class="discussion-img md:col-span-5 col-span-12 justify-center items-center md:flex hidden">
+        <div class="grid grid-cols-12 2xl:gap-24 xl:gap-16 lg:gap-12 md:gap-8 gap-4 flex relative">
+          <div class="discussion-img md:col-span-5 col-span-12 justify-center items-center md:flex hidden md:pl-24">
             <img src="../assets/images/discussion.png" alt="rocket">
           </div>
           <div class="md:col-span-7 col-span-12 flex flex-col justify-center items-center xl:px-20 lg:px-16 px-12 relative">
             <div class="xl:text-7xl lg:text-6xl md:text-5xl sm:text-4xl text-3xl
-                xl:left-20 lg:left-16 md:left-14
+                2xl:left-20 lg:left-24 md:left-16
                 md:top-16 -top-4
                 SeoulHangang service-flow-title"
               >服務流程</div>
             <div class="justify-center items-center service-flow-box xl:px-32 lg:px-24 md:px-16 px-14 py-20 mx-auto">
-              <div class="xl:text-4xl lg:text-3xl md:text-2xl sm:text-xl text-lg text-center secondary-text-color flex">
-                <div class="service-flow-label md:mr-3 mr-5">1</div>
+              <div class="2xl:text-4xl xl:text-3xl lg:text-2xl text-lg text-center secondary-text-color flex">
+                <div class="service-flow-label md:w-5 w-1 md:mr-3 mr-5">1</div>
                 諮詢、溝通想法
               </div>
-              <div class="xl:text-4xl lg:text-3xl md:text-2xl sm:text-xl text-lg text-center secondary-text-color md:mt-12 mt-4 flex">
-                <div class="service-flow-label md:mr-3 mr-5">2</div>
+              <div class="2xl:text-4xl xl:text-3xl lg:text-2xl text-lg text-center secondary-text-color md:mt-12 mt-4 flex">
+                <div class="service-flow-label md:w-5 w-1 md:mr-3 mr-5">2</div>
                 分析與提供報價
               </div>
-              <div class="xl:text-4xl lg:text-3xl md:text-2xl sm:text-xl text-lg text-center secondary-text-color md:mt-12 mt-4 flex">
-                <div class="service-flow-label md:mr-3 mr-5">3</div>
+              <div class="2xl:text-4xl xl:text-3xl lg:text-2xl text-lg text-center secondary-text-color md:mt-12 mt-4 flex">
+                <div class="service-flow-label md:w-5 w-1 md:mr-3 mr-5">3</div>
                 擬定開發計畫
               </div>
-              <div class="xl:text-4xl lg:text-3xl md:text-2xl sm:text-xl text-lg text-center secondary-text-color md:mt-12 mt-4 flex">
-                <div class="service-flow-label md:mr-3 mr-5">4</div>
+              <div class="2xl:text-4xl xl:text-3xl lg:text-2xl text-lg text-center secondary-text-color md:mt-12 mt-4 flex">
+                <div class="service-flow-label md:w-5 w-1 md:mr-3 mr-5">4</div>
                 設計、開發
               </div>
-              <div class="xl:text-4xl lg:text-3xl md:text-2xl sm:text-xl text-lg text-center secondary-text-color md:mt-12 mt-4 md:mb-0 mb-12 flex">
-                <div class="service-flow-label md:mr-3 mr-5">5</div>
+              <div class="2xl:text-4xl xl:text-3xl lg:text-2xl text-lg text-center secondary-text-color md:mt-12 mt-4 md:mb-0 mb-12 flex">
+                <div class="service-flow-label md:w-5 w-1 md:mr-3 mr-5">5</div>
                 測試確認、交件
               </div>
             </div>
