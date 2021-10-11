@@ -12,7 +12,7 @@
                 md:top-16 -top-4
                 SeoulHangang service-flow-title"
               >服務流程</div>
-            <div class="justify-center items-center service-flow-box xl:px-32 lg:px-24 md:px-16 px-14 py-20 mx-auto">
+            <div class="justify-center items-center service-flow-box xl:px-32 lg:px-24 md:px-16 px-14 md:w-auto w-72 py-20 mx-auto">
               <div class="2xl:text-4xl xl:text-3xl lg:text-2xl text-lg text-center secondary-text-color flex">
                 <div class="service-flow-label md:w-5 w-1 md:mr-3 mr-5">1</div>
                 諮詢、溝通想法

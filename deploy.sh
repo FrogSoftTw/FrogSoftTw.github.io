@@ -3,6 +3,11 @@
 # Exit when error occur
 set -e
 
+# Remove the old dist folder if exists
+if [ -d "dist" ]
+then rm -Rf dist
+fi
+
 # Build
 npm run build
 

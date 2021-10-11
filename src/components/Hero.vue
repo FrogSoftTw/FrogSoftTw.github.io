@@ -9,7 +9,7 @@
         <div class="2xl:text-8xl xl:text-6xl lg:text-5xl md:text-4xl text-3xl text-center primary-text-color SeoulHangang hero-title">科技</div>
         <div class="2xl:text-8xl xl:text-6xl lg:text-5xl md:text-4xl text-3xl text-center primary-text-color SeoulHangang hero-title">也可以如此簡單</div>
         <div class="xl:text-2xl lg:text-xl md:text-lg sm:text-base text-sm text-center secondary-text-color 2xl:mt-16 md:mt-10 mt-8">就像擁有魔法杖 輕輕一揮把想法實現</div>
-        <div class="md:w-48 w-36 lg:h-16 md:h-10 h-8
+        <div class="md:w-48 w-36 lg:h-16 h-10
           xl:text-2xl lg:text-xl md:text-lg text-base
           flex justify-center items-center
           md:my-14 my-6
