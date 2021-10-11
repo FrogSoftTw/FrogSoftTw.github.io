@@ -11,5 +11,5 @@ cd dist
 git init
 git add -A
 git commit -m 'deploy'
-git push -f https://github.com/FrogSoftTw/FrogSoftTw.github.io.git main:deploy
+git push -f https://github.com/FrogSoftTw/FrogSoftTw.github.io.git master:deploy
 cd ../
