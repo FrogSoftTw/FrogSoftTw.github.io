@@ -8,7 +8,7 @@
           </div>
           <div class="md:col-span-7 col-span-12 flex flex-col justify-center items-center xl:px-20 lg:px-16 px-12 relative">
             <div class="xl:text-7xl lg:text-6xl md:text-5xl sm:text-4xl text-3xl
-                2xl:left-20 lg:left-24 md:left-16
+                2xl:left-36 lg:left-24 md:left-16
                 md:top-16 -top-4
                 SeoulHangang service-flow-title"
               >服務流程</div>
