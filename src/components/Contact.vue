@@ -60,8 +60,8 @@
   }
   @media (min-width: 680px) {
     .contact-img-mobile {
-    max-width: 180px;
-  }
+      max-width: 180px;
+    }
   }
   .contact-img-mobile img {
     width: 100%;
@@ -87,8 +87,18 @@
     bottom: 0;
     z-index: -1;
     width: 100%;
-    height: 3rem;
+    height: 1rem;
     background-color: #FCE7B2;
+  }
+  @media (min-width: 768px) {
+    .contact-title::after {
+      height: 1.5rem;
+    }
+  }
+  @media (min-width: 1024px) {
+    .contact-title::after {
+      height: 2rem;
+    }
   }
   .contact-label {
     color: #FFFBF2;
