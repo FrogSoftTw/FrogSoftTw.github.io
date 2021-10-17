@@ -14,6 +14,7 @@
             flex justify-center items-center
             md:my-14 my-6
             hero-btn primary-color text-white"
+            @click="openFrom"
           >專人諮詢</div>
           <div class="xl:text-2xl lg:text-xl md:text-lg sm:text-base text-sm text-center secondary-text-color">網站｜Telegram聊天機器人｜爬蟲程式</div>
         </div>
@@ -21,6 +22,21 @@
     </div>
   </div>
 </template>
+
+<script lang="ts">
+  import { defineComponent } from "@vue/runtime-core";
+
+  export default defineComponent({
+    name: 'Hero',
+    setup(props, { emit }) {
+      const openFrom = () => {
+        emit("openForm")
+      }
+
+      return { openFrom }
+    }
+  })
+</script>
 
 <style>
   .hero-title {

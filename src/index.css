@@ -30,3 +30,7 @@ body {
 .secondary-text-color {
   color: #8A8686;
 }
+
+.required {
+  color: red;
+}

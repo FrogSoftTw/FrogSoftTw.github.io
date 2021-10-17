@@ -11,6 +11,7 @@
               xl:text-2xl lg:text-xl text-lg
               flex justify-center items-center
               contact-btn"
+              @click="openFrom"
             >立即諮詢</div>
             <div class="xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-base text-center secondary-text-color md:my-16 my-8">馬上預約顧問諮詢、實現計劃。</div>
             <div class="flex flex-row-reverse justify-center items-center overflow-hidden">
@@ -45,9 +46,24 @@
   </div>
 </template>
 
+<script lang="ts">
+  import { defineComponent } from "@vue/runtime-core";
+
+  export default defineComponent({
+    name: 'Contact',
+    setup(props, { emit }) {
+      const openFrom = () => {
+        emit("openForm")
+      }
+
+      return { openFrom }
+    }
+  })
+</script>
+
 <style>
   .contact-bg {
-    background: linear-gradient(197.6deg, rgba(209, 223, 201, 0.343805) 15.79%, rgba(225, 241, 217, 0.5) 28.58%, rgba(249, 254, 243, 0) 89.91%);
+    background: linear-gradient(197.6deg, rgba(209, 223, 201, 0.343805) 15.79%, rgba(225, 241, 217, 0.5) 28.58%, rgba(249, 254, 243, 0) 70.91%);
   }
   .contact-img {
     margin: 0 auto;
