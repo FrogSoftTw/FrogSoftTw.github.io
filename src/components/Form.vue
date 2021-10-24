@@ -148,7 +148,7 @@
           console.log(formData.value)
           Email.send({
             SecureToken: '594a9c64-383c-44e6-b041-a7656f1a5fe4',
-            To: 'forgsoft2021@gmail.com',
+            To: 'frogsoft2021@gmail.com',
             From: "csieproject2017@gmail.com",
             Subject: `FrogSoftTW contact from ${formData.value.name}`,
             Body: 
