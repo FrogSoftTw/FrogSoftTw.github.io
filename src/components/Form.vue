@@ -1,5 +1,8 @@
 <template>
   <div class="form-bg">
+    <div v-if="loader" class="loader-bg w-full h-screen flex justify-center items-center fixed">
+      <div class="loader"></div>
+    </div>
     <svg width="291" height="187" viewBox="0 0 291 187" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute md:block hidden">
       <path d="M0 127.418C31.2078 150.966 98.9266 180.111 120.139 108.314C121.78 78.3515 135.423 19.3588 176.874 23.0868C228.687 27.7469 264.334 44.4064 280.652 -10.8223" stroke="#C3CBBD" stroke-width="2"/>
     </svg>
@@ -131,6 +134,7 @@
       }
 
       const form = ref<any>(null)
+      const loader = ref<boolean>(false)
 
       const formData = ref({
         name: '',
@@ -143,6 +147,7 @@
       })
 
       const handleSubmit = (e: MouseEvent) => {
+        loader.value = true
         if (form.value && form.value.checkValidity()) {
           e.preventDefault()
           console.log(formData.value)
@@ -151,7 +156,7 @@
             To: 'frogsoft2021@gmail.com',
             From: "csieproject2017@gmail.com",
             Subject: `FrogSoftTW contact from ${formData.value.name}`,
-            Body: 
+            Body: encodeURIComponent(
               `姓名: ${formData.value.name}\n
               手機: ${formData.value.cellphone ? formData.value.cellphone : ""}\n
               email: ${formData.value.email}\n
@@ -160,15 +165,20 @@
               服務類型: ${formData.value.service}\n
               預算: ${formData.value.budget}
               `
+            )
           }).then(() => {
               alert("成功！")
               emit("closeForm")
-            }
-          )
+            })
+            .finally(() => {
+              loader.value = false
+            })
         }
+        else 
+          loader.value = false
       }
 
-      return { closeForm, form, formData, handleSubmit }
+      return { closeForm, form, loader, formData, handleSubmit }
     }
   })
 </script>
@@ -260,5 +270,24 @@
   }
   .submit-btn:hover {
     background-color: #cae0bf;
+  }
+  .loader-bg {
+    z-index: 9999;
+    background-color: rgba(255,255,255, 0.5);
+  }
+  .loader {
+    z-index: 9999;
+    position: fixed;
+    border: 16px solid #ccc;
+    border-top: 16px solid #093F68;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
   }
 </style>
