@@ -16,8 +16,8 @@
             <div class="xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-base text-center secondary-text-color md:my-16 my-8">馬上預約顧問諮詢、實現計劃。</div>
             <div class="flex flex-row-reverse justify-center items-center overflow-hidden">
               <div>
-                <div class="2xl:text-7xl xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-2xl text-center Puritan">你的創意，</div>
-                <div class="2xl:text-7xl xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-2xl text-center Puritan contact-title mt-5">我們實現。</div>
+                <div class="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-center Puritan">你的創意，</div>
+                <div class="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-center Puritan contact-title mt-5">我們實現。</div>
               </div>
               <div class="rocket-img inline-block md:hidden contact-img-mobile">
                 <img src="../assets/images/contact.png" alt="rocket">
@@ -69,7 +69,7 @@
     margin: 0 auto;
   }
   .contact-img img {
-    width: 80%;
+    width: 70%;
   }
   .contact-img-mobile {
     max-width: 160px;

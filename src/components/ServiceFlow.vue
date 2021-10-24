@@ -6,13 +6,13 @@
           <div class="discussion-img md:col-span-5 col-span-12 justify-center items-center md:flex hidden md:pl-24">
             <img src="../assets/images/discussion.png" alt="rocket">
           </div>
-          <div class="md:col-span-7 col-span-12 flex flex-col justify-center items-center xl:px-20 lg:px-16 px-12 relative">
-            <div class="xl:text-7xl lg:text-6xl md:text-5xl sm:text-4xl text-3xl
-                2xl:left-36 lg:left-24 md:left-16
+          <div class="md:col-span-7 col-span-12 flex flex-col justify-center items-center xl:px-20 lg:px-16 px-12">
+            <div class="justify-center items-center service-flow-box lg:px-24 md:px-16 px-14 md:w-auto w-72 py-20 mx-auto relative">
+              <div class="xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-2xl
+                md:left-0
                 md:top-16 -top-4
                 SeoulHangang service-flow-title"
               >服務流程</div>
-            <div class="justify-center items-center service-flow-box xl:px-32 lg:px-24 md:px-16 px-14 md:w-auto w-72 py-20 mx-auto">
               <div class="2xl:text-4xl xl:text-3xl lg:text-2xl text-lg text-center secondary-text-color flex">
                 <div class="service-flow-label md:w-5 w-1 md:mr-3 mr-5">1</div>
                 諮詢、溝通想法
@@ -69,6 +69,7 @@
     position: absolute;
     top: 0;
     left: 50%;
+    white-space: nowrap;
     transform: translateX(-50%);
     padding: 0 8px;
     writing-mode: horizontal-tb;

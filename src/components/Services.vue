@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="h-screen flex flex-col justify-center items-center">
-      <div class="2xl:text-7xl xl:text-6xl lg:text-5xl text-4xl text-center primary-text-color SeoulHangang">服務項目</div>
+      <div class="2xl:text-6xl xl:text-5xl lg:text-4xl text-3xl text-center primary-text-color SeoulHangang">服務項目</div>
       <div 
         class="xl:text-2xl lg:text-xl md:text-lg sm:text-base text-sm text-center secondary-text-color
           md:mt-10 mt-5 2xl:mb-20 xl:mb-16 md:mb-12 mb-10"
@@ -92,6 +92,13 @@
   }
 
   @media (min-width: 768px) {
+    .swiper {
+      height: 50%;
+      padding: 0 4rem;
+    }
+  }
+
+  @media (min-width: 1440px) {
     .swiper {
       height: 50%;
       padding: 0 2rem;

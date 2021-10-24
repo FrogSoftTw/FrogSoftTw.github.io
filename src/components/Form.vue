@@ -121,6 +121,7 @@
 
 <script lang="ts">
   import { defineComponent, ref } from "@vue/runtime-core";
+  import Email from "../assets/js/smtp";
 
   export default defineComponent({
     name: 'Form',
@@ -145,8 +146,25 @@
         if (form.value && form.value.checkValidity()) {
           e.preventDefault()
           console.log(formData.value)
-          alert("成功！")
-          emit("closeForm")
+          Email.send({
+            SecureToken: '594a9c64-383c-44e6-b041-a7656f1a5fe4',
+            To: 'forgsoft2021@gmail.com',
+            From: "csieproject2017@gmail.com",
+            Subject: `FrogSoftTW contact from ${formData.value.name}`,
+            Body: 
+              `姓名: ${formData.value.name}\n
+              手機: ${formData.value.cellphone ? formData.value.cellphone : ""}\n
+              email: ${formData.value.email}\n
+              line: ${formData.value.line ? formData.value.line : ""}\n
+              需求說明: ${formData.value.requirement}\n
+              服務類型: ${formData.value.service}\n
+              預算: ${formData.value.budget}
+              `
+          }).then(() => {
+              alert("成功！")
+              emit("closeForm")
+            }
+          )
         }
       }
 
