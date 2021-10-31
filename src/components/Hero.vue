@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="w-full h-screen flex justify-center items-center">
+    <div data-aos="fade-down" class="w-full h-screen flex justify-center items-center">
       <div class="grid grid-cols-12 xl:gap-24 lg:gap-16 md:gap-12 sm:gap-8 gap-4 flex">
         <div class="rocket-img md:col-span-5 col-span-12 flex justify-center items-center">
           <img src="../assets/images/rocket.png" alt="rocket">

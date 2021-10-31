@@ -2,7 +2,7 @@
   <div class="container">
     <div class="w-full h-screen flex flex-col justify-center md:px-24 px-10">
       <div class="2xl:text-6xl xl:text-5xl lg:text-4xl text-3xl ReemKufi Telegram-title md:mb-24 mb-12">Telegram</div>
-      <div class="justify-center items-center">
+      <div data-aos="fade-left" class="justify-center items-center">
         <div class="2xl:text-3xl xl:text-2xl text-lg Puritan Telegram-text">
           <div class="Telegram-label">什麼是telegram?</div>
           <div class="ml-5 md:mt-10 mt-5 2xl:text-2xl xl:text-xl text-base">Telegram 是新興的通訊軟體，與大家熟知的Line 是一樣功能。</div>

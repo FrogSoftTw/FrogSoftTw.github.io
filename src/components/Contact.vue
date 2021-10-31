@@ -15,7 +15,7 @@
             >立即諮詢</div>
             <div class="xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-base text-center secondary-text-color md:my-16 my-8">馬上預約顧問諮詢、實現計劃。</div>
             <div class="flex flex-row-reverse justify-center items-center overflow-hidden">
-              <div>
+              <div data-aos="fade-left">
                 <div class="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-center Puritan">你的創意，</div>
                 <div class="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-center Puritan contact-title mt-5">我們實現。</div>
               </div>
@@ -32,6 +32,7 @@
               <div class="sm:text-base text-sm font-bold md:mt-0 mt-8">
                 <div class="mb-4 tracking-wider flex">
                   <div class="mr-5">Line</div>
+                  <div>@780zqban</div>
                 </div>
                 <div class="tracking-wider flex">
                   <div class="mr-5">Email</div>

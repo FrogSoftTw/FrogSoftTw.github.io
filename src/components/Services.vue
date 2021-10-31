@@ -18,7 +18,7 @@
           "centeredSlides": false,
           "autoplay": false,
         },
-      }'>
+      }' data-aos="fade-up">
         <swiper-slide>
           <div class="h-full service-block">
             <div class="mt-3 px-6">

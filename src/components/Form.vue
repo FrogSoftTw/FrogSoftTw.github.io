@@ -156,16 +156,14 @@
             To: 'frogsoft2021@gmail.com',
             From: "csieproject2017@gmail.com",
             Subject: `FrogSoftTW contact from ${formData.value.name}`,
-            Body: encodeURIComponent(
-              `姓名: ${formData.value.name}\n
-              手機: ${formData.value.cellphone ? formData.value.cellphone : ""}\n
-              email: ${formData.value.email}\n
-              line: ${formData.value.line ? formData.value.line : ""}\n
-              需求說明: ${formData.value.requirement}\n
-              服務類型: ${formData.value.service}\n
+            Body: `<div>姓名: ${formData.value.name}<br />
+              手機: ${formData.value.cellphone ? formData.value.cellphone : ""}<br />
+              email: ${formData.value.email}<br />
+              line: ${formData.value.line ? formData.value.line : ""}<br />
+              需求說明: ${formData.value.requirement}<br />
+              服務類型: ${formData.value.service}<br />
               預算: ${formData.value.budget}
-              `
-            )
+              </div>`
           }).then(() => {
               alert("成功！")
               emit("closeForm")
