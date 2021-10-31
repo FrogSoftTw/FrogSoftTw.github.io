@@ -38,3 +38,7 @@ body {
 .required {
   color: red;
 }
+
+.comtainer {
+  overflow: hidden !important;
+}

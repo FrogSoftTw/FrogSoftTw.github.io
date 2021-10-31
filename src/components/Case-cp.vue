@@ -23,10 +23,10 @@
             <div class="Case-content 2xl:text-2xl xl:text-xl lg:text-xl md:text-lg text-sm">虛擬幣上百種，不可能一個一個追蹤每天的數據，因此委託製作了數據分析程式，客製化我想要的投資策略，並用Telegram提醒我適當的交易時間，不錯過任何好的進場時機！</div>
           </div>
         </div>
-        <div data-aos="fade-right" class="CaseCP-img orange absolute -top-20 -left-16 z-10">
+        <div data-aos="fade-right" class="CaseCP-img orange absolute -top-20 z-10">
           <img src="../assets/images/bitcoin.svg" alt="case1">
         </div>
-        <div data-aos="fade-right" class="CaseCP-color-img absolute top-8 -left-5 z-0">
+        <div data-aos="fade-right" class="CaseCP-color-img absolute top-8 z-0">
           <img src="../assets/images/orangeCP.svg" alt="case1-color">
         </div>
       </div>
@@ -37,7 +37,7 @@
             <div class="Case-content 2xl:text-2xl xl:text-xl lg:text-xl md:text-lg text-sm">委託了蛙鳴製作商品庫存追蹤系統，能自動偵測電商特定商品的庫存，一有庫存就自動提醒，讓我不再錯過下單的機會。</div>
           </div>
         </div>
-        <div data-aos="fade-left" class="CaseCP-img green absolute -top-16 -right-20 z-10">
+        <div data-aos="fade-left" class="CaseCP-img green absolute -top-16 z-10">
           <img src="../assets/images/businessman.svg" alt="case3">
         </div>
         <div data-aos="fade-left" class="CaseCP-color-img absolute -top-3 left-1/2 z-0">
@@ -67,9 +67,13 @@
   .CaseCP-img img {
     width: 100%;
   }
-  .CaseCP-img.orange img,
+  .CaseCP-img.orange img{
+    width: 50%;
+    float: left;
+  }
   .CaseCP-img.green img {
     width: 50%;
+    float: right;
   }
   .CaseCP-color-img img {
     width: 100%;
