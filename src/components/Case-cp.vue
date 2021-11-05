@@ -5,8 +5,8 @@
       <div class="Case w-full relative mb-24">
         <div class="grid grid-cols-12 2xl:gap-24 xl:gap-16 lg:gap-12 md:gap-8 gap-4">
           <div data-aos="fade-right" class="Case-text-box blue p-3 col-span-12 z-10">
-            <div class="Case-title 2xl:text-2xl xl:text-xl lg:text-xl md:text-lg text-sm mb-2">Instagram 網帥：</div>
-            <div class="Case-content 2xl:text-2xl xl:text-xl lg:text-xl md:text-lg text-sm">為了分析我粉絲的流動，委託做了Instargram 爬蟲程式，工程師幫我把爬蟲數據整理輸出成excel，讓我可以運用熟悉的工具做後續處理。</div>
+            <div class="Case-title 2xl:text-2xl xl:text-xl lg:text-xl md:text-lg text-sm mb-2"><span class="Puritan">Instagram</span> 網帥：</div>
+            <div class="Case-content 2xl:text-2xl xl:text-xl lg:text-xl md:text-lg text-sm">為了分析我粉絲的流動，委託做了<span class="Puritan">Instargram</span> 爬蟲程式，工程師幫我把爬蟲數據整理輸出成<span class="Puritan">excel</span>，讓我可以運用熟悉的工具做後續處理。</div>
           </div>
         </div>
         <div data-aos="fade-left" class="CaseCP-img absolute right-0 z-10">
@@ -20,7 +20,7 @@
         <div class="grid grid-cols-12 2xl:gap-24 xl:gap-16 lg:gap-12 md:gap-8 gap-4">
           <div data-aos="fade-left" class="Case-text-box orange p-3 col-start-3 col-span-12 z-10">
             <div class="Case-title 2xl:text-2xl xl:text-xl lg:text-xl md:text-lg text-sm text-right mb-2">虛擬幣投資達人：</div>
-            <div class="Case-content 2xl:text-2xl xl:text-xl lg:text-xl md:text-lg text-sm">虛擬幣上百種，不可能一個一個追蹤每天的數據，因此委託製作了數據分析程式，客製化我想要的投資策略，並用Telegram提醒我適當的交易時間，不錯過任何好的進場時機！</div>
+            <div class="Case-content 2xl:text-2xl xl:text-xl lg:text-xl md:text-lg text-sm">虛擬幣上百種，不可能一個一個追蹤每天的數據，因此委託製作了數據分析程式，客製化我想要的投資策略，並用<span class="Puritan">Telegram</span>提醒我適當的交易時間，不錯過任何好的進場時機！</div>
           </div>
         </div>
         <div data-aos="fade-right" class="CaseCP-img orange absolute -top-20 z-10">
