@@ -8,7 +8,7 @@
     </svg>
     <div class="cancel-btn absolute 2xl:right-20 2xl:top-20 md:right-8 md:top-8 right-5 top-5" @click="closeForm"></div>
     <div class="container">
-      <div class="w-full min-h-screen flex flex-col justify-center xl:px-48 lg:px-32 2xl:p-20 md:p-14 p-10">
+      <div class="w-full min-h-screen flex flex-col justify-center 2xl:px-48 lg:px-20 2xl:p-20 md:p-14 p-10">
         <div class="flex justify-between">
           <div class="flex flex-col">
             <div class="2xl:text-5xl xl:text-3xl lg:text-2xl text-xl">立即預約</div>
@@ -183,7 +183,7 @@
 
 <style>
   .form-bg {
-    background-color: #E5E5E5;
+    background-color: #F9FEF3;
   }
   .cancel-btn {
     width: 40px;
