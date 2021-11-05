@@ -1,7 +1,7 @@
 <template>
   <div class="contact-bg">
     <div class="container">
-      <div class="w-full h-screen flex justify-center items-center">
+      <div class="w-full h-screen flex flex-col justify-center items-center">
         <div class="grid grid-cols-12 xl:gap-24 lg:gap-16 md:gap-12 sm:gap-8 gap-4 flex">
           <div class="rocket-img md:col-span-5 md:flex hidden justify-center items-center contact-img">
             <img src="../assets/images/contact.png" alt="rocket">
@@ -40,9 +40,9 @@
                 </div>
               </div>
             </div>
-            <div class="secondary-text-color mt-8 text-sm">© {{ years }} 蛙鳴資訊</div>
           </div>
         </div>
+        <div class="secondary-text-color mt-20 text-sm">© {{ years }} 蛙鳴資訊</div>
       </div>
     </div>
   </div>
