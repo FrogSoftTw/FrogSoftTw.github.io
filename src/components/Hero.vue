@@ -1,11 +1,11 @@
 <template>
   <div class="container">
     <div data-aos="fade-down" class="w-full h-screen flex justify-center items-center">
-      <div class="grid grid-cols-12 2xl:gap-24 md:gap-12 sm:gap-8 gap-4 flex">
-        <div class="rocket-img md:col-span-6 col-span-12 flex justify-center items-center">
+      <div class="grid grid-cols-12 2xl:gap-24 sm:gap-8 gap-4 flex">
+        <div class="rocket-img md:col-span-5 col-span-12 flex justify-center items-center">
           <img src="../assets/images/rocket.png" alt="rocket">
         </div>
-        <div class="md:col-span-6 col-span-12 flex flex-col justify-center items-center">
+        <div class="md:col-span-7 col-span-12 flex flex-col justify-center items-center">
           <div class="2xl:text-7xl xl:text-6xl lg:text-5xl text-4xl text-center primary-text-color hero-title">科技</div>
           <div class="2xl:text-7xl xl:text-6xl lg:text-5xl text-4xl text-center primary-text-color hero-title">也可以如此簡單</div>
           <div class="xl:text-2xl lg:text-xl md:text-lg sm:text-base text-sm text-center secondary-text-color 2xl:mt-16 mt-8">就像擁有魔法杖 輕輕一揮把想法實現</div>
@@ -57,7 +57,7 @@
   }
   @media (min-width: 768px) {
     .rocket-img img {
-      width: 90%;
+      width: 85%;
     }
   }
   .hero-btn {
