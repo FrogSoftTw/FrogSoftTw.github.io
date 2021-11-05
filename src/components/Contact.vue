@@ -16,8 +16,8 @@
             <div class="xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-base text-center secondary-text-color md:my-16 my-8">馬上預約顧問諮詢、實現計劃。</div>
             <div class="flex flex-row-reverse justify-center items-center overflow-hidden">
               <div data-aos="fade-left">
-                <div class="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-lg text-center Puritan">你的創意，</div>
-                <div class="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-lg text-center Puritan contact-title mt-5">我們實現。</div>
+                <div class="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-lg text-center Puritan textWrap">你的創意，</div>
+                <div class="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-lg text-center Puritan contact-title mt-5 textWrap">我們實現。</div>
               </div>
               <div class="rocket-img inline-block md:hidden contact-img-mobile">
                 <img src="../assets/images/contact.png" alt="rocket">
@@ -84,7 +84,7 @@
     }
   }
   .contact-img-mobile img {
-    width: 100%;
+    width: 80%;
   }
   .contact-btn {
     font-weight: 200;
@@ -127,5 +127,8 @@
   .contact-footer {
     border-top: 1px solid #C4C4C4;
     padding-top: 20px;
+  }
+  .textWrap {
+    white-space: nowrap;
   }
 </style>
