@@ -9,7 +9,7 @@
           </div>
           <div class="2xl:text-2xl xl:text-xl text-lg flex flex-col items-center">
             <div class="Example-box">
-              <img src="../assets/images/example2.png" alt="example2" class="m-auto">
+              <img src="../assets/images/example2.svg" alt="example2" class="m-auto">
             </div>
             <div class="Example-text mt-5">2 歸納問題、設計演算法</div>
           </div>
@@ -39,7 +39,7 @@
 
 <style>
   .Example img {
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
   }
   @media (min-width: 1440px) {
@@ -48,7 +48,7 @@
     }
   }
   .Arrow img {
-    width: 100%;
+    width: 70%;
     margin: 0 auto;
   }
   .Example-box {

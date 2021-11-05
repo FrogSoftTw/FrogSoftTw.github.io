@@ -11,14 +11,14 @@
           </div>
         </div>
         <div class="text-sm flex flex-col items-end Example2">
-          <img src="../assets/images/exampleCp2.png" alt="example2" class="ml-0">
+          <img src="../assets/images/example2.svg" alt="example2" class="ml-0">
           <div class="Example-text mt-2">2 歸納問題、設計演算法</div>
         </div>
         <div class="mt-5 justify-center items-center flex relative">
           <div class="absolute right-5 top-0">
             <img src="../assets/images/arrowCp2.png" alt="example1">
           </div>
-          <div class="text-sm flex flex-col items-start">
+          <div class="text-sm flex flex-col items-start Example3">
             <div class="Example-text mb-2">3 做出漂亮決策</div>
             <img src="../assets/images/example3.png" alt="example3">
           </div>
@@ -31,9 +31,12 @@
 
 <style>
   .Example1 {
-    width: 70%;
+    width: 60%;
   }
   .Example2 img {
     width: 50%;
+  }
+  .Example3 img {
+    width: 80%;
   }
 </style>

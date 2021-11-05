@@ -1,7 +1,7 @@
 <template>
   <div class="container Example">
     <div class="w-full h-screen flex flex-col justify-center px-10">
-      <div class="text-xl text-center Puritan Example-title mb-8">- 案例分享 -</div>
+      <div class="text-xl text-center Puritan Example-title mb-8">案例分享</div>
       <div class="Case w-full relative mb-24">
         <div class="grid grid-cols-12 2xl:gap-24 xl:gap-16 lg:gap-12 md:gap-8 gap-4">
           <div data-aos="fade-right" class="Case-text-box blue p-3 col-span-12 z-10">

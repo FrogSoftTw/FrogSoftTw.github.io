@@ -29,17 +29,18 @@
                 <div class="contact-label md:text-3xl text-lg">CONTACT</div>
                 <div class="contact-label md:text-3xl text-lg">US</div>
               </div>
-              <div class="sm:text-base text-sm font-bold md:mt-0 mt-8">
+              <div class="sm:text-base text-sm font-bold md:mt-0 mt-8 secondary-text-color Puritan">
                 <div class="mb-4 tracking-wider flex">
-                  <div class="mr-5">Line</div>
+                  <div class="w-16">Line</div>
                   <div>@780zqban</div>
                 </div>
                 <div class="tracking-wider flex">
-                  <div class="mr-5">Email</div>
+                  <div class="w-16">Email</div>
                   <div>frogsoft2021@gmail.com</div>
                 </div>
               </div>
             </div>
+            <div class="secondary-text-color mt-8 text-sm">© {{ years }} 蛙鳴資訊</div>
           </div>
         </div>
       </div>
@@ -48,7 +49,7 @@
 </template>
 
 <script lang="ts">
-  import { defineComponent } from "@vue/runtime-core";
+  import { defineComponent, ref } from "@vue/runtime-core";
 
   export default defineComponent({
     name: 'Contact',
@@ -57,7 +58,9 @@
         emit("openForm")
       }
 
-      return { openFrom }
+      const years = ref(new Date().getFullYear())
+
+      return { openFrom, years }
     }
   })
 </script>

@@ -41,28 +41,28 @@
                       爬蟲，資料分析
                     </label>
                     <label class="2xl:text-2xl md:text-lg text-sm 2xl:mb-4 mb-2">
-                      <input type="radio" name="service" value="telegram機器人" class="mr-2" v-model="formData.service">
-                      telegram機器人
+                      <input type="radio" name="service" value="Telegram機器人" class="mr-2" v-model="formData.service">
+                      <span class="Puritan">Telegram</span>機器人
                     </label>
                     <label class="2xl:text-2xl md:text-lg text-sm 2xl:mb-4 mb-2">
                       <input type="radio" name="service" value="網站架設" class="mr-2" v-model="formData.service">
                       網站架設
                     </label>
                     <label class="2xl:text-2xl md:text-lg text-sm 2xl:mb-4 mb-2">
-                      <input type="radio" name="service" value="爬蟲＋telegram" class="mr-2" v-model="formData.service">
-                      爬蟲＋telegram
+                      <input type="radio" name="service" value="爬蟲＋Telegram" class="mr-2" v-model="formData.service">
+                      爬蟲＋<span class="Puritan">Telegram</span>
                     </label>
                     <label class="2xl:text-2xl md:text-lg text-sm 2xl:mb-4 mb-2">
                       <input type="radio" name="service" value="爬蟲＋網頁" class="mr-2" v-model="formData.service">
                       爬蟲＋網頁
                     </label>
                     <label class="2xl:text-2xl md:text-lg text-sm 2xl:mb-4 mb-2">
-                      <input type="radio" name="service" value="telegram＋網頁" class="mr-2" v-model="formData.service">
-                      telegram＋網頁
+                      <input type="radio" name="service" value="Telegram＋網頁" class="mr-2" v-model="formData.service">
+                      <span class="Puritan">Telegram</span>＋網頁
                     </label>
                     <label class="2xl:text-2xl md:text-lg text-sm 2xl:mb-4 mb-2">
-                      <input type="radio" name="service" value="爬蟲＋telegram＋網頁" class="mr-2" v-model="formData.service">
-                      爬蟲＋telegram＋網頁
+                      <input type="radio" name="service" value="爬蟲＋Telegram＋網頁" class="mr-2" v-model="formData.service">
+                      爬蟲＋<span class="Puritan">Telegram</span>＋網頁
                     </label>
                     <label class="2xl:text-2xl md:text-lg text-sm 2xl:mb-4 mb-2">
                       <input type="radio" name="service" value="其他" class="mr-2" v-model="formData.service">
@@ -81,27 +81,27 @@
                   <div class="flex flex-col">
                     <label class="2xl:text-2xl md:text-lg text-sm 2xl:mb-4 mb-2">
                       <input type="radio" name="budget" value="1萬以下" class="mr-2" v-model="formData.budget" required>
-                      1萬以下
+                      <span class="SeoulHangang">1</span>萬以下
                     </label>
                     <label class="2xl:text-2xl md:text-lg text-sm 2xl:mb-4 mb-2">
                       <input type="radio" name="budget" value="1~3萬" class="mr-2" v-model="formData.budget">
-                      1~3萬
+                      <span class="SeoulHangang">1~3</span>萬
                     </label>
                     <label class="2xl:text-2xl md:text-lg text-sm 2xl:mb-4 mb-2">
                       <input type="radio" name="budget" value="3~5萬" class="mr-2" v-model="formData.budget">
-                      3~5萬
+                      <span class="SeoulHangang">3~5</span>萬
                     </label>
                     <label class="2xl:text-2xl md:text-lg text-sm 2xl:mb-4 mb-2">
                       <input type="radio" name="budget" value="5~7萬" class="mr-2" v-model="formData.budget">
-                      5~7萬
+                      <span class="SeoulHangang">5~7</span>萬
                     </label>
                     <label class="2xl:text-2xl md:text-lg text-sm 2xl:mb-4 mb-2">
                       <input type="radio" name="budget" value="7~10萬" class="mr-2" v-model="formData.budget">
-                      7~10萬
+                      <span class="SeoulHangang">7~10</span>萬
                     </label>
                     <label class="2xl:text-2xl md:text-lg text-sm 2xl:mb-4 mb-2">
                       <input type="radio" name="budget" value="10萬以上" class="mr-2" v-model="formData.budget">
-                      10萬以上
+                      <span class="SeoulHangang">10</span>萬以上
                     </label>
                     <label class="2xl:text-2xl md:text-lg text-sm 2xl:mb-4 mb-2">
                       <input type="radio" name="budget" value="我沒概念" class="mr-2" v-model="formData.budget">
@@ -110,9 +110,10 @@
                   </div>
                 </div>
               </div>
+              <button class="submit-btn md:w-52 w-48 h-12 mt-8 mr-10 flex justify-center items-center self-center md:block hidden" type="submit" @click="e => handleSubmit(e)">送出</button>
             </div>
           </div>
-          <button class="submit-btn md:w-52 w-48 md:h-12 h-10 md:mt-0 mt-5 flex justify-center items-center md:self-end self-center" type="submit" @click="e => handleSubmit(e)">送出</button>
+          <button class="submit-btn md:w-52 w-48 md:h-12 h-10 md:mt-0 mt-5 md:mr-10 mr-0 flex justify-center items-center self-center md:hidden block" type="submit" @click="e => handleSubmit(e)">送出</button>
         </form>
       </div>
     </div>
@@ -186,8 +187,8 @@
     background-color: #F9FEF3;
   }
   .cancel-btn {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border: 1px solid #8A8686;
     background: #ffffff;
     border-radius: 5px;
@@ -201,7 +202,7 @@
   .cancel-btn::after {
     content: "";
     position: absolute;
-    width: 30px;
+    width: 20px;
     height: 1px;
     background-color: #8A8686;
     top: 50%;
@@ -213,8 +214,8 @@
   }
   @media (min-width: 768px) {
     .cancel-btn {
-      width: 50px;
-      height: 50px;
+      width: 35px;
+      height: 35px;
     }
   }
   .form input[type="text"] { 
@@ -223,7 +224,7 @@
     -webkit-border-radius: 5px;
     border-radius: 5px;
     margin-bottom: 5px;
-    background-color: #eeeeee;
+    background-color: #ffffff;
   }
   .form textarea { 
     padding: 4px 8px; 
@@ -231,7 +232,7 @@
     -webkit-border-radius: 5px;
     border-radius: 5px;
     margin-bottom: 10px;
-    background-color: #eeeeee;
+    background-color: #ffffff;
     height: 100px;
   }
   @media (min-width: 768px) {

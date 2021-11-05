@@ -36,12 +36,12 @@
   }
   .title-bar-img { 
     padding: 10px 0;
-    max-width: 200px;
+    max-width: 150px;
     height: auto;
   }
   @media (max-width: 768px) {
     .title-bar-img { 
-      max-width: 150px;
+      max-width: 120px;
     }
   }
 </style>
